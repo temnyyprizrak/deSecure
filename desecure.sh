@@ -6,3 +6,7 @@ sudo apt upgrade
 
 # Now we install the necessary tools needed
 sudo apt install macchanger tor torify torsocks pidgin pidgin-otr
+
+# Change MAC address
+sudo macchanger -r wlp3s0
+
