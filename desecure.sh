@@ -8,5 +8,8 @@ sudo apt upgrade
 sudo apt install macchanger tor torify torsocks pidgin pidgin-otr
 
 # Change MAC address
+echo 'Changing MAC address...'
+sudo ifconfig wlp3s0 down
 sudo macchanger -r wlp3s0
+sudo ifconfig wlp3s0 up
 
